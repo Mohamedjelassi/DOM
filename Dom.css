@@ -1,0 +1,289 @@
+    .shopcart {
+        background-color: rgb(230, 230, 230);
+        margin-top: 100px;
+        margin-left: 400px;
+        margin-right: 400px;
+        border-radius: 10px;
+        padding-bottom: 50px;
+    }
+    
+    body {
+        background-color: rgb(201, 201, 201);
+    }
+    
+    .item1 {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .item2 {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .item3 {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .entete {
+        display: flex;
+        margin-top: 40px;
+        padding-top: 30px;
+        font-weight: bold;
+    }
+    
+    .des {
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+    
+    .sz {
+        margin-right: 70px;
+    }
+    
+    .pz {
+        margin-right: 100px;
+    }
+    
+    .qt {
+        margin-right: 180px;
+    }
+    
+    .rv {
+        margin-right: 70px;
+    }
+    
+    .new1 {
+        margin-bottom: 20px;
+        margin-left: 48px;
+        margin-right: 48px;
+    }
+    
+    .mar {
+        margin-left: 40px;
+        margin-right: 40px;
+        margin-top: 40px;
+    }
+    
+    .img {
+        display: flex;
+        padding-left: 30px;
+    }
+    
+    .txt {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    
+    h6 {
+        margin-top: -15px;
+    }
+    
+    #size {
+        font-weight: bold;
+        position: relative;
+        left: 10px;
+    }
+    
+    .price {
+        font-weight: bold;
+        position: relative;
+        left: 80px;
+    }
+    
+    .price1 {
+        font-weight: bold;
+        position: relative;
+        left: 95px;
+        top: -33px;
+    }
+    
+    .price2 {
+        font-weight: bold;
+        position: relative;
+        left: 80px;
+        top: -25px;
+        position: relative;
+        left: 105px;
+        top: -33px;
+    }
+    
+    .fx {
+        margin-left: 30px;
+        position: relative;
+        left: 60px;
+    }
+    
+    .fx2 {
+        margin-left: 30px;
+        position: relative;
+        left: 133px;
+    }
+    
+    .fx3 {
+        margin-left: 30px;
+        position: relative;
+        left: 148px;
+    }
+    
+    .btps {
+        border: none;
+        padding: 10px;
+        text-align: center;
+        background-color: rgb(230, 230, 230);
+        color: black;
+        border: 2px solid #555555;
+        border-radius: 4px;
+    }
+    
+    .btps:hover {
+        background-color: #555555;
+        color: rgb(230, 230, 230);
+    }
+    
+    .btmn {
+        border: none;
+        padding: 10px;
+        text-align: center;
+        background-color: rgb(230, 230, 230);
+        color: black;
+        border: 2px solid #555555;
+        border-radius: 4px;
+    }
+    
+    .btmn:hover {
+        background-color: #555555;
+        color: rgb(230, 230, 230);
+    }
+    
+    #inc1 {
+        padding: 10px;
+        width: 20%;
+    }
+    
+    #inc2 {
+        padding: 10px;
+        width: 20%;
+    }
+    
+    #inc3 {
+        padding: 10px;
+        width: 20%;
+    }
+    
+    .tot {
+        display: flex;
+        margin-left: 750px;
+    }
+    
+    h1 {
+        text-align: center;
+        text-transform: capitalize;
+        margin-top: 80px;
+        color: rgb(66, 66, 66);
+        font-family: "Lucida Console", "Courier New", monospace;
+        background-color: rgb(230, 230, 230);
+        padding: 20px;
+        margin-left: -20px;
+        margin-right: -20px;
+    }
+    
+    .rvbta {
+        width: 2%;
+        height: 1%;
+        padding: 15px;
+        border-radius: 8px;
+        position: relative;
+        top: -15px;
+    }
+    
+    .rvbta:hover {
+        background-color: #555555;
+        color: rgb(230, 230, 230);
+    }
+    
+    .rvbtb {
+        width: 2%;
+        height: 1%;
+        padding: 15px;
+        border-radius: 8px;
+        position: relative;
+        top: -15px;
+        position: relative;
+        left: 133px;
+        padding-bottom: 30px;
+    }
+    
+    .rvbtb:hover {
+        background-color: #555555;
+        color: white;
+    }
+    
+    .rvbtc {
+        width: 2%;
+        height: 1%;
+        padding: 15px;
+        border-radius: 8px;
+        position: relative;
+        top: -15px;
+        position: relative;
+        left: 150px;
+        padding-bottom: 30px;
+    }
+    
+    .rvbtc:hover {
+        background-color: #555555;
+        color: white;
+    }
+    
+    .tot1 {
+        width: 6%;
+        height: 8.5%;
+        border: 3px solid #555;
+        border-radius: 4px;
+        padding: 6px;
+    }
+    
+    .tot2 {
+        width: 6%;
+        height: 8.5%;
+        border: 3px solid #555;
+        border-radius: 4px;
+        position: relative;
+        left: 200px;
+        padding: 10px;
+    }
+    
+    .tot3 {
+        width: 6%;
+        height: 8.5%;
+        border: 3px solid #555;
+        border-radius: 4px;
+        position: relative;
+        left: 220px;
+        padding: 10px;
+    }
+    
+    .rd {
+        border-radius: 4px;
+    }
+    
+    .flexend {
+        width: 50%;
+        height: 10px;
+        padding: 10px;
+        margin: 20px;
+    }
+    
+    .tot {
+        background-color: rgb(201, 201, 201);
+        border-radius: 4px;
+        padding-left: 50px;
+    }
+    
+    .sizeM {
+        position: relative;
+        left: 200px;
+    }
+    /*

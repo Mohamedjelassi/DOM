@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My shopping cart </title>
+    <link rel="stylesheet" href="Dom.css">
+</head>
+
+<!-- Title -->
+
+<h1> My shopping cart</h1>
+
+<body>
+
+    <!--  shopping cart -->
+
+    <section class="shopcart">
+
+        <!--  heading -->
+
+        <div class="entete">
+            <p class="des">Description </p>
+            <p class="sz">size</p>
+            <p class="pz">Price</p>
+            <p class="qt">Quantity</p>
+            <p class="rv">Remove</p>
+            <P>Prices</P>
+        </div>
+        <hr class="new1">
+
+        <section class="mar">
+            <div id="item1">
+
+                <!-- item 1 -->
+
+                <div class="item1">
+                    <div class="img">
+                        <img class="rd" src="nikeshoes.jpg" width="80" height="100">
+                        <div class="txt">
+                            <p> Men Grey Training Shoes</p>
+                            <h6>Nike</h6>
+                        </div class="disp">
+                        <p id="size"> 41 </p>
+                        <p class="price"> 500 $ </p>
+                    </div>
+
+                    <div class="fx">
+                        <button class="btps" onclick="buttonClickaddItem1()">+</button>
+                        <input type="text" id="inc1" value="0"></input>
+                        <button class="btmn" onclick="buttonClickSousitem1()">-</button>
+                    </div>
+                    <p class="rvbta" onclick="rmvFunction()">X </p>
+                    <input class="tot1" type="text" id="total1" value="0"></input>
+                </div>
+
+                <hr class="new1">
+            </div>
+
+            <!-- item 2 -->
+
+            <div id="item2">
+                <div class="item2">
+                    <div class="img">
+                        <img class="rd" src="nike.jpg" width="80" height="100">
+                        <div class="txt">
+                            <p> Training Cropped Joggers</p>
+                            <h6>Nike</h6>
+                        </div>
+                        <div class="disp">
+                            <p id="size"> M </p>
+                            <p class="price1"> 300 $ </p>
+                        </div>
+                        <div class="fx2">
+                            <button class="btps" onclick="buttonClickaddItem2()">+</button>
+                            <input type="text" id="inc2" value="0"></input>
+                            <button class="btmn" onclick="buttonClickSousitem2()">-</button>
+                        </div>
+                        <p class="rvbtb" onclick="revFunction()">X </p>
+                        <input class="tot2" type="text" id="total2" value="0"></input>
+                    </div>
+                </div>
+                <hr class="new1">
+            </div>
+
+            <!-- item 3 -->
+
+            <div id="item3">
+                <div class="item3">
+                    <div class="img">
+                        <img class="rd" src="puma.jpg" width="80" height="100">
+                        <div class="txt">
+                            <p> Men Open Front Jacket</p>
+                            <h6>Puma</h6>
+                        </div>
+                        <div class="disp">
+                            <p class="sizeM" id="size"> M </p>
+                            <p class="price2"> 150 $ </p>
+                        </div>
+                        <div class="fx3">
+                            <button class="btps" onclick="buttonClickaddItem3()">+</button>
+                            <input type="text" id="inc3" value="0"></input>
+                            <button class="btmn" onclick="buttonClickSousitem3()">-</button>
+                        </div>
+                        <p class="rvbtc" onclick="revFunction3()">X </p>
+                        <input class="tot3" type="text" id="total3" value="0"></input>
+                    </div>
+                </div>
+                <hr class="new1">
+            </div>
+
+            <!-- total card -->
+
+            <div class="tot">
+                <p class="totam"> Total Amount </p>
+                <input class="flexend" type="text" id="total" value="0"></input>
+
+
+
+            </div>
+        </section>
+
+
+    </section>
+    <script src="Dom.js"></script>
+</body>
+
+
+
+</html>
